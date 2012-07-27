@@ -99,7 +99,7 @@ $ git add .
 $ git commit
 **** プッシュする
 リモートリポジトリを作成(GitHubで…)
-$ git remote add origin git@GitHub:eiel/PROJECT_NAME.git
+$ git remote add origin git@github.com:eiel/PROJECT_NAME.git
 $ git push origin master
 # -u をつけておくと今後は git push でプッシュできる
 ** よし開発していこう

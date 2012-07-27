@@ -1,34 +1,34 @@
 * 全体像
 ** 目的
-githubで成果物を公開する
+GitHubで成果物を公開する
 とりあえず、使ってみることに重点をおく
 ** 対象者
 バージョン管理システムを利用していない人
 ** 必要なこと
 - gitをインストールする
   - Mac
-    - github for mac
+    - GitHub for mac
     - コマンド Xcode
   - Windows
-    - github for windows
+    - GitHub for windows
     - コマンド msysgit
   - コマンド
-- githubのアカウントを作成する
+- GitHubのアカウントを作成する
 - gitの基本操作を学ぶ
   - commitの作り方
 ** おまけで説明できたら良いこと
-- Githubの使い方
+- GitHubの使い方
 - Gitの使い方
 * スライドラフ
 ** 本日の目標
-githubのアカウントをつくる
-成果物をgithubに公開する
+GitHubのアカウントをつくる
+成果物をGitHubに公開する
 *** 時間があれば
-githubについてもっと詳しく
+GitHubについてもっと詳しく
 gitについてもっと詳しく
-** Githubとはなんぞや
+** GitHubとはなんぞや
 - GitHub is the best way to collaborate with others. Fork, send pull requests and manage all your public and private git repositories.
-  Githubは他の人と共同して作業するのに最高の方法だ。フォークして、プル リクエストを送り、公開非公開問わずgitリポジトリを管理する。
+  GitHubは他の人と共同して作業するのに最高の方法だ。フォークして、プル リクエストを送り、公開非公開問わずgitリポジトリを管理する。
 - Git is an extremely fast, efficient, distributed version control system ideal for the collaborative development of software.
   Git は非常に速い、使いやすい、ソフテウェアを共同して開発するのに理想的な分散バージョン管理システム
 # バージョン管理システムを利用したことがない人がいるか確認すること
@@ -38,20 +38,20 @@ gitについてもっと詳しく
   - ちょっとづつ使ってなれましょう
 - 基本無料でprivateリボジトリを作りたい場合、有料です。
 - GitHub は SNSです。(岡山の人がいってた。僕もそう思います。)
-** Githubのアカウントをつくる
+** GitHubのアカウントをつくる
 - 画像で
-*** githubの画面説明
+*** GitHubの画面説明
 - 画面で
 *** インストール
 **** Mac
 - GUIツール
-  http://mac.github.com/
+  http://mac.GitHub.com/
 - CUI
   http://git-scm.com/download/mac
   Xcodeにもついてきます
 **** Windows
 - GUIツール
-  http://windows.github.com/
+  http://windows.GitHub.com/
 - CUI
   http://git-scm.com/download/win
 **** UNIX like
@@ -76,18 +76,18 @@ $ git config --global color.ui auto
 *** Eclipse プラグインは？
 http://www.eclipse.org/egit/
 説明しません
-** Githubでプロジェクトを公開する
+** GitHubでプロジェクトを公開する
 - リポジトリを作る
 - コミットをつくる
 - プッシュする
 *** 用語説明
 - リポジトリ
-バージョン管理する上で必要なものをすべて保存してるところ
+バージョン管理する上で必要なものをすべて保存してあるところ
 - コミット
 いつでも後からに戻せるポイント。
 application,application_20120712,application_20120724
-- ステージングエリア
-コミットをつくるための準備エリア。ここに変更を追加し、コミットするとステージングエリアがコミットになる。
+- プッシュ
+リポジトリに蓄積した情報を公開サーバヘ送る
 *** GUI編
 - 画像で
 *** CUI編
@@ -98,14 +98,14 @@ $ git init
 $ git add .
 $ git commit
 **** プッシュする
-リモートリポジトリを作成(githubで…)
-$ git remote add origin git@github:eiel/PROJECT_NAME.git
+リモートリポジトリを作成(GitHubで…)
+$ git remote add origin git@GitHub:eiel/PROJECT_NAME.git
 $ git push origin master
 # -u をつけておくと今後は git push でプッシュできる
 ** よし開発していこう
 - きりがよいところでマメにコミットしよう
   - もどせるポイントは多いに越したことはない。コミットが小さいほうが何を変更したのかわかりすい。
-** もっとgithubを使おう
+** もっとGitHubを使おう
 - 友達をフォローしよう
 - 気になる人をフォローしよう
 - 気になるプロジェクトをウォッチしよう
